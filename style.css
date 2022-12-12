@@ -1,9 +1,55 @@
 body {
+    margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-header {
+h1 {
     background-color: rgb(148, 215, 156);
+    margin: 0;
+    padding: 20px 0;
+    text-align: center;
+}
+h3 {
+    margin-top: 0;
+}
+#unique-selling-point {
+    margin: 0 20px;
+}
+#items {
+    margin: 20px 20px;
+}
+#introduction {
+    border-bottom: 3px solid black;
+    margin: 20px 20px;
+}
+#gallery {
+    background-color: rgb(211, 211, 211);
+    padding: 20px 20px 0 20px;
+    margin: 0;
+}
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+img {
+    width: 200px;
+    height: 200px;
+    margin: 0 0 20px 0;
 }
 footer {
     background-color: rgb(148, 215, 156);
+    padding: 20px 20px;
+}
+#contact-info {
+    border-bottom: 1px solid black;
+    margin: 0 0 20px 0;
+}
+.email {
+    margin: 0 0 10px 0;
+}
+.message {
+    margin: 0 0 10px 0;
+}
+input[type="submit"] {
+    padding: 5px 10px;
 }
