@@ -1,37 +1,87 @@
-Valerie's Veggie Shop
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Valerie's Veggie Shop</title>
+</head>
+<body>
+    <header>
+        <h1>Valerie's Veggie Shop</h1>
+    </header>
 
-Welcome to Valerie's Veggie Shop!
-Since 1983, Valerie's Veggie Shop sell's only the highest quality and most affordable vegetables. If you didn't get it at Valerie's, you're missing out.
+    <main>
+        <section id="introduction">
+            <h2>Welcome to Valerie's Veggie Shop!</h2>
+            <p>Since 1983, Valerie's Veggie Shop sell's only the highest quality and most affordable vegetables. If you didn't get it at Valerie's, you're missing out.</p>
+        </section>
 
-Here are just some of Valerie's fine veggies
-Carrots
-Eggplant
-Peppers
-Mushrooms
-Zucchini
-Broccoli
+        <section id="items">
+            <h3>Here are just some of Valerie's fine veggies</h3>
+            <ol>
+                <li>Carrots</li>
+                <li>Eggplant</li>
+                <li>Peppers</li>
+                <li>Mushrooms</li>
+                <li>Zucchini</li>
+                <li>Broccoli</li>
+            </ol>
+        </section>
 
-Why choose Valerie's?
-Soko radicchio bunya nuts gram dulse silver beet parsnip napa cabbage lotus root sea lettuce brussels sprout cabbage. Catsear cauliflower garbanzo yarrow salsify chicory garlic bell pepper napa cabbage lettuce tomato kale arugula melon sierra leone bologi rutabaga tigernut.
+        <section id="unique-selling-point">
+            <h3>Why choose Valerie's?</h3>
+            <p>Soko radicchio bunya nuts gram dulse silver beet parsnip napa cabbage lotus root sea lettuce brussels sprout cabbage. Catsear cauliflower garbanzo yarrow salsify chicory garlic bell pepper napa cabbage lettuce tomato kale arugula melon sierra leone bologi rutabaga tigernut.</p>
+        </section>
 
-Gallery
-veg-1.jpg
-veg-2.jpg
-veg-3.jpg
-veg-4.jpg
-veg-5.jpg
-veg-6.jpg
-veg-7.jpg
-veg-8.jpg
-veg-9.jpg
-veg-10.jpg
-veg-11.jpg
-
-Connect with Us:
-1-800-EAT-VEGS
-val@valsveggies.com
-
-Message Us:
-email
-message
-submit
+        <section id="gallery">
+            <h3>Gallery</h3>
+            <div class="images">
+                <img src="public/images/veg-1.jpg" alt="Vegetables">
+                <img src="public/images/veg-2.jpg" alt="Vegetables">
+                <img src="public/images/veg-3.jpg" alt="Vegetables">
+                <img src="public/images/veg-4.jpg" alt="Vegetables">
+                <img src="public/images/veg-5.jpg" alt="Vegetables">
+                <img src="public/images/veg-6.jpg" alt="Vegetables">
+                <img src="public/images/veg-7.jpg" alt="Vegetables">
+                <img src="public/images/veg-8.jpg" alt="Vegetables">
+                <img src="public/images/veg-9.jpg" alt="Vegetables">
+                <img src="public/images/veg-10.jpg" alt="Vegetables">
+                <img src="public/images/veg-11.jpg" alt="Vegetables">
+            </div>
+        </section>
+    </main>
+        
+    <footer>
+        <section id="contact-info">
+            <h3>Connect with Us:</h3>
+            <address>
+                <p>1-800-EAT-VEGS</p>
+                <p>val@valsveggies.com</p>
+            </address>
+        </section>
+        
+        <section id="message-us">
+            <h3>Message Us:</h3>
+            <!-- email -->
+            <div class="email">
+                <div class="email-heading">
+                    <label for="email">email</label>
+                </div>
+                <input type="email">
+            </div>
+            
+            <!-- message -->
+            <div class="message">
+                <div class="message-heding">
+                    <label for="message">message</label>
+                </div>
+                <textarea name="message" id="message" cols="40" rows="4"></textarea>
+            </div>
+            
+            <input type="submit">
+        </section>
+    </footer>
+</body>
+</html>
