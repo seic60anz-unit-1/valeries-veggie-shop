@@ -1,0 +1,30 @@
+img {
+    display: inline-block;
+    width: 300px;
+    height: 220px;
+}
+p {
+   font-size: 1.2em;
+   color: #e85f10;
+}
+
+h1, h2 {
+    color:#7b2c2c
+}
+
+body {
+    background-color: #FCF5C7;
+}
+
+input[type="email"] {
+    width: 200px;
+}
+
+input[type="messageus"] {
+    width: 300px;
+    height: 200px;
+}
+
+ul {
+    color:rgb(2, 126, 78)
+}
