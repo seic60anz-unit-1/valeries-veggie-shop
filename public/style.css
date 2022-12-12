@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(116, 125, 131);
+    text-align: center;
+    border-color: rgb(166, 13, 13);
+    border-width: 50px;
+    border: solid
+}
+
+h1{
+    text-align: center;
+    color: rgb(187, 59, 0);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    color: rgb(25, 73, 25);
+}
+
+p {
+    text-align: center;
+    background-color: whitesmoke;
+    border-color: black;
+    border: solid;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+footer {
+    background-color: limegreen;
+}
